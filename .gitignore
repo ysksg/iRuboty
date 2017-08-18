@@ -1,0 +1,4 @@
+.bundle
+bundle_bin
+vendor
+.env
