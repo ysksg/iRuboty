@@ -16,4 +16,5 @@ gem 'ruboty-misawa', github: 'mzp/ruboty-misawa'
 gem 'ruboty-ruby'
 gem 'ruboty-sd'
 gem 'ruboty-bento', :git => "https://github.com/ysksg/ruboty-bento.git"
+gem 'ruboty-shuden', :git => "https://github.com/miyuk/ruboty-shuden.git"
 

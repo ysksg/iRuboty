@@ -6,6 +6,16 @@ GIT
       ruboty
 
 GIT
+  remote: https://github.com/miyuk/ruboty-shuden.git
+  revision: eded105921fdfc874d706d96e1bff1f34975a0a7
+  specs:
+    ruboty-shuden (0.0.1)
+      nokogiri
+      ruboty
+      ruboty-redis
+      ruboty-slack_rtm
+
+GIT
   remote: https://github.com/ysksg/ruboty-bento.git
   revision: 0316b25ce7047757b556269b7007497feac1b526
   specs:
@@ -16,19 +26,19 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.1.3)
+    activesupport (5.1.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     artii (2.1.2)
-    chrono (0.3.0)
+    chrono (0.4.0)
       activesupport
     concurrent-ruby (1.0.5)
     dotenv (2.2.1)
     event_emitter (0.2.6)
     eventmachine (1.2.5)
-    faraday (0.13.0)
+    faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.1)
       faraday (>= 0.7.4, < 1.0)
@@ -41,16 +51,16 @@ GEM
     ikku (0.1.4)
       natto
     mem (0.1.5)
-    mini_portile2 (2.2.0)
+    mini_portile2 (2.3.0)
     minitest (5.10.3)
-    multi_json (1.12.1)
+    multi_json (1.12.2)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     natto (1.1.1)
       ffi (>= 1.9.0)
-    nokogiri (1.8.0)
-      mini_portile2 (~> 2.2.0)
-    rake (12.0.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
+    rake (12.1.0)
     redis (3.3.3)
     redis-namespace (1.5.3)
       redis (~> 3.0, >= 3.0.4)
@@ -114,7 +124,7 @@ GEM
     websocket-client-simple (0.3.0)
       event_emitter
       websocket
-    websocket-driver (0.6.5)
+    websocket-driver (0.7.0)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
 
@@ -134,9 +144,10 @@ DEPENDENCIES
   ruboty-response
   ruboty-ruby
   ruboty-sd
+  ruboty-shuden!
   ruboty-slack_rtm
   ruboty-syoboi_calendar
   ruboty-weather
 
 BUNDLED WITH
-   1.15.3
+   1.16.0.pre.2
